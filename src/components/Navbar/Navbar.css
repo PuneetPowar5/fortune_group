@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Palatino;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #132e57;
+}
+
+.Home {
+  font-size: 100px;
+  justify-self: start;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: #fa621c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 80%;
+}
+
+.Team,
+.Portfolio,
+.Stocks,
+.About,
+.Contact {
+  text-decoration: none;
+  color: #fa621c;
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.MobileIcon {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .Home {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    top: 0px;
+    left: 10px;
+  }
+
+  .Links {
+    display: none;
+  }
+
+  .MobileLinks {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #132e57;
+    left: 0;
+    top: 80px;
+    transition: all 1s ease-out;
+    width: 100%;
+  }
+
+  .Team,
+  .Portfolio,
+  .Stocks,
+  .About,
+  .Contact {
+    color: #fa621c;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    transition: all 1s ease;
+  }
+
+  .MobileIcon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #fa621c;
+    background-color: #132e57;
+    border: none;
+    outline: none;
+    top: 20px;
+    right: 30px;
+  }
+}
