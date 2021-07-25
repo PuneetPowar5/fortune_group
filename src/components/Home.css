@@ -8,3 +8,43 @@
   align-items: center;
   object-fit: contain;
 }
+
+.CompName {
+  color: #fa621c;
+  display: flex;
+  font-size: 48px;
+  font-size-adjust: inherit;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.Slogan {
+  color: #fa621c;
+  display: flex;
+  font-size: 24px;
+  font-size-adjust: inherit;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  .CompName {
+    color: #fa621c;
+    display: flex;
+    font-size: 24px;
+    font-size-adjust: inherit;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+
+  .Slogan {
+    color: #fa621c;
+    display: flex;
+    font-size: 12px;
+    font-size-adjust: inherit;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+}

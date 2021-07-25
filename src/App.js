@@ -7,7 +7,6 @@ import Portfolio from './components/Portfolio';
 import Team from './components/Team';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,27 +15,21 @@ const App = () => {
       <Switch>
         <Route exact path='/'>
           <Home />
-          <Footer />
         </Route>
         <Route path='/team'>
           <Team />
-          <Footer />
         </Route>
         <Route path='/portfolio'>
           <Portfolio />
-          <Footer />
         </Route>
         <Route path='/stocks'>
           <Stocks />
-          <Footer />
         </Route>
         <Route path='/about'>
           <About />
-          <Footer />
         </Route>
         <Route path='/contact'>
           <Contact />
-          <Footer />
         </Route>
       </Switch>
     </Router>
