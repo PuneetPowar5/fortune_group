@@ -19,10 +19,12 @@
   letter-spacing: 10px;
 }
 
-.Slogan {
+.Intro {
   color: #fa621c;
   display: flex;
   font-size: 24px;
+  justify-content: center;
+  text-align: center;
   font-size-adjust: inherit;
   text-transform: uppercase;
   letter-spacing: 5px;
