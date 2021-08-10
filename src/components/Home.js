@@ -6,10 +6,16 @@ import Goals from './Goals';
 
 const Home = () => {
     return(
-        <div className='HomePage'>
-            <Title />
-            <Quote />
-            <Goals />
+        <div>
+            <div>
+                <Title />
+            </div>
+            <div>
+                <Quote />
+            </div>
+            <div>
+                <Goals />
+            </div>
         </div>
     );
 }
