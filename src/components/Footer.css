@@ -1,0 +1,8 @@
+Footer {
+  background-color: #132e57;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 200px;
+}

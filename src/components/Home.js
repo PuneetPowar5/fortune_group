@@ -3,6 +3,7 @@ import './Home.css';
 import Title from './Title';
 import Quote from './Quote';
 import Goals from './Goals';
+import Footer from './Footer';
 
 const Home = () => {
     return(
@@ -15,6 +16,9 @@ const Home = () => {
             </div>
             <div>
                 <Goals />
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );
