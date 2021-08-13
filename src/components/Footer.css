@@ -1,8 +1,22 @@
-Footer {
+.Footer {
   background-color: #132e57;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  height: 200px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Icons {
+  color: #fa621c;
+  font-size: 100px;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.Trademark {
+  justify-content: end;
+  color: #fa621c;
+  font-size: 50px;
+  letter-spacing: 5px;
 }

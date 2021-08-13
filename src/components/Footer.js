@@ -7,7 +7,6 @@ import {AiFillLinkedin} from 'react-icons/ai';
 const Footer = () => {
     return(
         <div className='Footer'>
-            <div className='Social'>
                 <div className='Icons'>
                     <Link to='https://www.instagram.com' className='Instagram'>
                         <AiFillInstagram></AiFillInstagram>
@@ -16,7 +15,9 @@ const Footer = () => {
                         <AiFillLinkedin></AiFillLinkedin>
                     </Link>
                 </div>
-            </div>
+                <div className='Trademark'>
+                    The Fortune Group © 2021
+                </div>
         </div>
     );
 }
