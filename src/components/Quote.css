@@ -1,39 +1,28 @@
 .QuotePage {
   background: url("Picture1.png");
   background-size: 100% 100%;
-  padding: 180px 0;
+  height: 100vh;
+  width: 100%;
 }
 
-.Row {
+.Row2 {
   display: flex;
-  margin-right: -10px;
-  margin-bottom: -10px;
-  margin-left: -10px;
+  text-align: center;
   flex-wrap: wrap;
   align-content: stretch;
+  justify-content: center;
 }
 
-.Col {
-  margin-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
-}
-
-.TextWrapper {
-  padding-top: 350px;
+.Col2 {
+  max-width: 500px;
+  flex-basis: 500px;
 }
 
 .Quote {
+  padding-top: 250px;
   text-align: center;
   color: #fa621c;
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 50px;
+  letter-spacing: 15px;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  justify-content: center;
 }
