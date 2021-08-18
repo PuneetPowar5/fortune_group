@@ -5,30 +5,22 @@
   width: 100%;
 }
 
-.Row1 {
-  display: flex;
-  text-align: center;
-}
-
-.Col1 {
-  max-width: 500px;
-  flex-basis: 500px;
-}
-
 .CompName {
+  width: 100%;
   padding-top: 200px;
+  padding-left: 50px;
   color: #fa621c;
   font-size: 48px;
-  font-size-adjust: inherit;
-  padding-bottom: 50px;
+  padding-bottom: 600px;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
 
 .Intro {
-  color: #fa621c;
+  color: black;
+  text-align: center;
+  width: 100%;
   font-size: 20px;
-  font-size-adjust: inherit;
   text-transform: uppercase;
   letter-spacing: 5px;
 }

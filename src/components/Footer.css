@@ -6,12 +6,20 @@
 }
 
 .Icons {
-  color: #fa621c;
   font-size: 100px;
-  text-decoration: none;
   display: flex;
   cursor: pointer;
   padding-left: 20px;
+}
+
+.Instagram {
+  color: #fa621c;
+  text-decoration: none;
+}
+
+.Linkedin {
+  color: #fa621c;
+  text-decoration: none;
 }
 
 .Trademark {

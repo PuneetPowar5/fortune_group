@@ -8,12 +8,12 @@ const Footer = () => {
     return(
         <div className='Footer'>
                 <div className='Icons'>
-                    <Link to='https://www.instagram.com' className='Instagram'>
+                    <a href='https://www.instagram.com' className='Instagram'>
                         <AiFillInstagram></AiFillInstagram>
-                    </Link>
-                    <Link to='https://www.linkedin.com' className='Linkedin'>
+                    </a>
+                    <a href="https://www.linkedin.com/company/thefortunegroup/" className='Linkedin'>
                         <AiFillLinkedin></AiFillLinkedin>
-                    </Link>
+                    </a>
                 </div>
                 <div className='Trademark'>
                     The Fortune Group © 2021
