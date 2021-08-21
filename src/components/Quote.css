@@ -12,7 +12,8 @@
   text-align: center;
   padding-top: 150px;
   color: #fa621c;
-  font-size: 40px;
-  letter-spacing: 10px;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
