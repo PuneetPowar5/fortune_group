@@ -1,11 +1,34 @@
+/*
+Blue: #132e57
+Orange: #fa621c
+*/
+
 .contacts{
     width: 100%;
+    height: 750px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: #fa621c;
+    color: #132e57;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 .inContact{
     padding: 5px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 25px;
 }
 
 .contacts > img{
@@ -13,7 +36,15 @@
     width: 30px;
 }
 
+
+
 img{
     height: 30px;
     width: 30px;
+}
+
+.separator{
+    width: 100%;
+    height: 5px;
+    background-color: #132e57;
 }
