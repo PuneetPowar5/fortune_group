@@ -1,0 +1,34 @@
+.StevePage {
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.Steve {
+  width: 100%;
+  padding-top: 2em;
+  text-align: center;
+  color: #fa621c;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.SteveDescription {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5em;
+  color: #fa621c;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.Image {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 import {AiFillInstagram} from 'react-icons/ai';
 import {AiFillLinkedin} from 'react-icons/ai';
 
