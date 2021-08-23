@@ -2,7 +2,6 @@
   background-color: aqua;
   height: 100vh;
   width: 100%;
-  display: flex;
 }
 
 .Steve {
@@ -29,6 +28,10 @@
 
 .Image {
   display: flex;
-  justify-content: center;
-  padding-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  height: 50em;
+  object-fit: contain;
+  padding-top: 3em;
 }
