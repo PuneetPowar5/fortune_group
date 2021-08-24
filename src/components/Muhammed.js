@@ -1,5 +1,6 @@
 import React from 'react';
 import './Muhammed.css';
+import muhammed from './muhammed.jpg';
 
 const Muhammed = () => {
     return(
@@ -10,6 +11,9 @@ const Muhammed = () => {
                 </div>
                 <div className='MuhammedDescription'>
                     Utilizes React JS to create a web development for the company
+                </div>
+                <div>
+                    <img src={muhammed} alt='Muhammed' className='MuhammedImage'/>
                 </div>
             </div>
         </div>

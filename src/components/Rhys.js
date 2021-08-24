@@ -1,5 +1,6 @@
 import React from 'react';
 import './Rhys.css';
+import temprhys from './temprhys.jpg';
 
 const Rhys = () => {
     return(
@@ -10,6 +11,9 @@ const Rhys = () => {
                 </div>
                 <div className='RhysDescription'>
                     Utilizes React JS to create a web development for the company
+                </div>
+                <div>
+                    <img src={temprhys} alt='Rhys' className='RhysImage'/>
                 </div>
             </div>
         </div>

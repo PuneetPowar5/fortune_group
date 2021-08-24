@@ -1,15 +1,16 @@
 .AndrewPage {
-  background-color: aqua;
+  background-color: #fa621c;
   height: 100vh;
   width: 100%;
   display: flex;
 }
 
 .Andrew {
+  display: flex;
+  justify-content: center;
   width: 100%;
   padding-top: 2em;
-  text-align: center;
-  color: #fa621c;
+  color: #132e57;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -17,12 +18,23 @@
 }
 
 .AndrewDescription {
+  display: flex;
   width: 100%;
   text-align: center;
   padding-top: 0.5em;
-  color: #fa621c;
+  color: #132e57;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+}
+
+.AndrewImage {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  height: 50em;
+  object-fit: contain;
+  padding-top: 3em;
 }

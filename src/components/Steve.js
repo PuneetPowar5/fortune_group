@@ -1,6 +1,6 @@
 import React from 'react';
 import './Steve.css';
-import Picture from './russ.jpeg';
+import steve from './steve.jpg';
 
 const Steve = () => {
     return(
@@ -13,7 +13,7 @@ const Steve = () => {
                     Develops and Implements investment strategies for investment allocations
                 </div>
                 <div>
-                    <img src={Picture} alt='Steve' className='Image'/>
+                    <img src={steve} alt='Steve' className='SteveImage'/>
                 </div>
             </div>
         </div>

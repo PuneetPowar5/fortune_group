@@ -1,5 +1,6 @@
 import React from 'react';
 import './Puneet.css';
+import puneet from './puneet.jpg';
 
 const Puneet = () => {
     return(
@@ -10,6 +11,9 @@ const Puneet = () => {
                 </div>
                 <div className='PuneetDescription'>
                     Utilizes React JS to create a web development for the company
+                </div>
+                <div>
+                    <img src={puneet} alt='Puneet' className='PuneetImage'/>
                 </div>
             </div>
         </div>
