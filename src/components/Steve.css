@@ -35,3 +35,15 @@
   object-fit: contain;
   padding-top: 3em;
 }
+
+@media screen and (max-width: 1355px) {
+  .SteveImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    height: 40em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
