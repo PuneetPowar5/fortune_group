@@ -6,9 +6,8 @@
 }
 
 .Andrew {
-  display: flex;
-  justify-content: center;
   width: 100%;
+  text-align: center;
   padding-top: 2em;
   color: #132e57;
   font-size: 2em;
@@ -18,7 +17,6 @@
 }
 
 .AndrewDescription {
-  display: flex;
   width: 100%;
   text-align: center;
   padding-top: 0.5em;

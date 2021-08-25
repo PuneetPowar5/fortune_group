@@ -7,7 +7,7 @@ const Rhys = () => {
         <div className='RhysPage'>
             <div className='Container'>
                 <div className='Rhys'>
-                    Rhys Collings Software Engineer:
+                    Rhys Collings Software Engineer
                 </div>
                 <div className='RhysDescription'>
                     Utilizes React JS to create a web development for the company

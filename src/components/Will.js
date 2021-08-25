@@ -10,7 +10,7 @@ const Will = () => {
                     William Ho Financial Analyst
                 </div>
                 <div className='WillDescription'>
-                    Researchs/Analyzes attractive stocks through utilization of key financial metrics , business news, and valuation methods to prepare weekly stock reports
+                    Researchs/Analyzes attractive stocks through utilization of key financial metrics, business news, and valuation methods to prepare weekly stock reports
                 </div>
                 <div>
                     <img src={Lin} alt='Will' className='LinImage'></img>
