@@ -27,12 +27,39 @@
   letter-spacing: 0.5em;
 }
 
-.KarnikImage {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40em;
-  height: 40em;
-  object-fit: contain;
-  padding-top: 3em;
+@media screen and (max-width: 660px) {
+  .Karnik {
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+    color: #132e57;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+
+  .KarnikDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #132e57;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .KarnikDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #132e57;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
 }

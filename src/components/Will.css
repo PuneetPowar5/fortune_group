@@ -27,7 +27,7 @@
   letter-spacing: 0.5em;
 }
 
-.LinImage {
+.VacantImage {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -35,4 +35,63 @@
   height: 45em;
   object-fit: contain;
   padding-top: 3em;
+}
+
+@media screen and (max-width: 1431px) {
+  .VacantImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 30em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .Will {
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+    color: #fa621c;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+
+  .WillDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #fa621c;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .WillDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #fa621c;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+
+  .VacantImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 20em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
 }

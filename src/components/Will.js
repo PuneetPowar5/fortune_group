@@ -1,6 +1,6 @@
 import React from 'react';
 import './Will.css';
-import Lin from './lin.jpeg';
+import vacant from './vacant image.png';
 
 const Will = () => {
     return(
@@ -13,7 +13,7 @@ const Will = () => {
                     Researchs/Analyzes attractive stocks through utilization of key financial metrics, business news, and valuation methods to prepare weekly stock reports
                 </div>
                 <div>
-                    <img src={Lin} alt='Will' className='LinImage'></img>
+                    <img src={vacant} alt='Will' className='VacantImage'></img>
                 </div>
             </div>
         </div>

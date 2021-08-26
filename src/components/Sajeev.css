@@ -36,3 +36,62 @@
   object-fit: contain;
   padding-top: 3em;
 }
+
+@media screen and (max-width: 1431px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 30em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .Sajeev {
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+    color: #132e57;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+
+  .SajeevDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #132e57;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .SajeevDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    color: #132e57;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 20em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
