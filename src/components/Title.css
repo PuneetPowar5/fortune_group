@@ -6,8 +6,10 @@
 }
 
 .CompName {
+  display: flex;
   width: 100%;
   padding-top: 2em;
+  justify-content: center;
   text-align: center;
   color: #fa621c;
   font-size: 2em;
@@ -17,7 +19,9 @@
 }
 
 .Intro {
+  display: flex;
   color: #fa621c;
+  justify-content: center;
   text-align: center;
   width: 100%;
   padding-top: 4em;
