@@ -42,9 +42,6 @@ const Team = () => {
                 <Andrew />
             </div>
             <div>
-                <Brady />
-            </div>
-            <div>
                 <Footer />
             </div>
         </div>
