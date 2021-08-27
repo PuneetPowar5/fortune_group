@@ -95,3 +95,15 @@
     padding-top: 3em;
   }
 }
+
+@media screen and (max-height: 940px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 30em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
