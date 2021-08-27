@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import Footer from './Footer';
 
 const About = () => {
   return (
@@ -24,6 +25,9 @@ const About = () => {
             “Risk comes from not knowing what you are doing” - Warren Buffet
           </h2>
         </ul>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
