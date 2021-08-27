@@ -1,0 +1,51 @@
+/*
+Blue: #132e57
+Orange: #fa621c
+*/
+
+.portfolio {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff9c6e;
+  background-size: cover;
+  color: #132e57;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inPortfolio {
+  padding: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.portfolio > img {
+  height: 30px;
+  width: 30px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+.separator {
+  width: 100%;
+  height: 5px;
+  background-color: #132e57;
+}
