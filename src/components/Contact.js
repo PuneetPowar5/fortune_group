@@ -2,6 +2,7 @@ import React from 'react';
 import linkedIn from "../pics/linkedIn.jpg";
 import instagram from "../pics/Instagram.png";
 import "./Contact.css";
+import Footer from './Footer';
 
 const Contact = () => {
     return(
@@ -24,6 +25,9 @@ const Contact = () => {
                     <h4>Instagram:</h4>
                     <img src={instagram} alt="instagram"/>
                 </a>
+            </div>
+            <div>
+                <Footer />
             </div>
             
         </div>
