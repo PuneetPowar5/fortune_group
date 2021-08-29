@@ -37,18 +37,6 @@
   padding-top: 3em;
 }
 
-@media screen and (max-width: 1431px) {
-  .VacantImage {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
-    height: 30em;
-    object-fit: contain;
-    padding-top: 3em;
-  }
-}
-
 @media screen and (max-width: 660px) {
   .Will {
     width: 100%;
@@ -84,7 +72,33 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
   }
+}
 
+@media screen and (max-height: 940px) {
+  .VacantImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 30em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .VacantImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    height: 25em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 670px) {
   .VacantImage {
     display: flex;
     margin-left: auto;
@@ -96,13 +110,25 @@
   }
 }
 
-@media screen and (max-height: 940px) {
+@media screen and (max-height: 590px) {
   .VacantImage {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
-    height: 30em;
+    width: 15em;
+    height: 15em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  .VacantImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    height: 10em;
     object-fit: contain;
     padding-top: 3em;
   }

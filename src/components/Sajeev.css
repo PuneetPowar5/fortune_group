@@ -107,3 +107,51 @@
     padding-top: 3em;
   }
 }
+
+@media screen and (max-height: 750px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    height: 25em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 670px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 20em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 590px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    height: 15em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  .SajeevImage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    height: 10em;
+    object-fit: contain;
+    padding-top: 3em;
+  }
+}
