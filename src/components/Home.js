@@ -15,9 +15,6 @@ const Home = () => {
                 <Title />
             </div>
             <div>
-                <Quote />
-            </div>
-            <div>
                 <Goals />
             </div>
             <div>
