@@ -1,6 +1,5 @@
 import React from 'react';
 import Andrew from './Andrew';
-import Brady from './Brady';
 import Footer from './Footer';
 import Karnik from './Karnik';
 import Muhammed from './Muhammed';
