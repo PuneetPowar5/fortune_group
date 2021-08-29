@@ -7,7 +7,7 @@ const About = () => {
     <div className='background'>
       <div className='about'>
         <h2>About Us</h2>
-        <div className='separator'></div>
+
         <div className='space'></div>
         <ul>
           <h2>

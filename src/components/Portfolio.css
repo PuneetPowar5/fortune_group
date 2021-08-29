@@ -35,11 +35,15 @@ a {
 h2 {
   font-size: 40px;
   margin-bottom: 20px;
+}
+.portfolioTitle {
   text-decoration: underline;
 }
 
 h4 {
   font-size: 25px;
+}
+.portfolioDesc {
   text-align: center;
   font-family: Helvetica;
 }

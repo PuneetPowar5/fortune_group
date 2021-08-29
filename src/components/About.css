@@ -8,9 +8,9 @@ Orange: #fa621c
   height: 750px;
   display: flex;
   flex-direction: column;
-  background-color: #ff9c6e;
+  background-color: white;
   background-size: cover;
-  color: #132e57;
+  color: black;
 }
 
 a {
