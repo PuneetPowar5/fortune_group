@@ -8,9 +8,10 @@ Orange: #fa621c
   height: 750px;
   display: flex;
   flex-direction: column;
-  background-color: #ff9c6e;
+  background-color: white;
   background-size: cover;
-  color: #132e57;
+  color: black;
+  padding: 20px;
 }
 
 a {
@@ -20,14 +21,42 @@ a {
 .inPortfolio {
   padding: 5px;
 }
+.container {
+  display: flex;
+}
+.font {
+  font-family: 'Times New Roman', Times, serif;
+}
 
+.fontUnder {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+.child {
+  width: 50%;
+  float: left;
+
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
 h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
+.portfolioTitle {
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 h4 {
   font-size: 25px;
+}
+.portfolioDesc {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
 }
 
 .portfolio > img {
@@ -41,7 +70,7 @@ img {
 }
 
 .space {
-  margin-bottom: 20px;
+  margin-bottom: 600px;
 }
 
 .separator {

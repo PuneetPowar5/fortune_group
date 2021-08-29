@@ -12,7 +12,7 @@ const Stocks = () => {
     return(
         <div>
             <h2>
-                Stocks
+                These are a Collection of our Stock Pitches
             </h2>
             <div className="presentations">
             <Slideshow title="Air Canada" stock={airCanada}/>

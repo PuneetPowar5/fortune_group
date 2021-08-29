@@ -11,7 +11,7 @@
   padding-top: 2em;
   justify-content: center;
   text-align: center;
-  color: #fa621c;
+  color: black;
   font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
 
 .Intro {
   display: flex;
-  color: #fa621c;
+  color: black;
   justify-content: center;
   text-align: center;
   width: 100%;

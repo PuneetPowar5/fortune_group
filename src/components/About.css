@@ -8,9 +8,10 @@ Orange: #fa621c
   height: 750px;
   display: flex;
   flex-direction: column;
-  background-color: #ff9c6e;
+  background-color: white;
   background-size: cover;
-  color: #132e57;
+  color: black;
+  padding: 20px;
 }
 
 a {
@@ -28,6 +29,14 @@ h2 {
 
 h4 {
   font-size: 25px;
+}
+.aboutTitle {
+  text-decoration: underline;
+}
+
+.aboutDesc {
+  text-align: center;
+  font-family: Helvetica;
 }
 
 .about > img {

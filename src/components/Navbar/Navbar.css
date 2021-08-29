@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Palatino;
+  font-family: Helvetica;
 }
 
 .Navbar {
@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  background-color: #132e57;
+  background-color: white;
 }
 
 .Home {

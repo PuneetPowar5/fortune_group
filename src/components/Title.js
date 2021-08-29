@@ -6,10 +6,10 @@ const Title = () => {
         <div className='TitlePage'>
             <div className='Container'>
                             <div className='CompName'>
-                                THE FORTUNE GROUP
+                                Premier Student Lead Investment Fund
                             </div>
                             <div className='Intro'>
-                                The Fortune Group, established by a team of 10 university students aims to maximize capital gains through value investing philosophy
+                                Established by a team of 10 university students aiming to maximize capital gains through value investing philosophy
                             </div>
             </div>
         </div>
