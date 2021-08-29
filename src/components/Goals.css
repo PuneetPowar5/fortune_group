@@ -2,17 +2,41 @@
   background-color: white;
   height: 100vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .Goals {
+  display: flex;
+  position: relative;
+  left: 5em;
+  top: 2em;
   color: black;
-  width: 100%;
   font-size: 2em;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.5em;
   text-transform: uppercase;
+}
+
+.Values {
+  position: relative;
+  list-style: none;
+  font-size: 3em;
+  top: 4em;
+  left: 1em;
+}
+
+.Capital {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding-bottom: 2em;
+}
+
+.CapitalIcon {
+  font-size: 5em;
+}
+
+.CapitalText {
+  padding-bottom: 2em;
 }
