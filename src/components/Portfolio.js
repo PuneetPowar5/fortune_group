@@ -21,12 +21,12 @@ const Portfolio = () => {
         <div className='space'></div>
         <div className='container'>
           <div className='child'>
-            <h1>5</h1>
-            <h3>Stock Holdings</h3>
+            <h1 className='font'>5</h1>
+            <h3 className='fontUnder'>Stock Holdings</h3>
           </div>
           <div className='child'>
-            <h1>$5k</h1>
-            <h3>Asset Under Management</h3>
+            <h1 className='font'>$5k</h1>
+            <h3 className='fontUnder'>Assets Under Management</h3>
           </div>
         </div>
       </div>
