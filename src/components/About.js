@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Footer from './Footer';
+import Toronto from '../pics/toronto_about.jpeg';
 
 const About = () => {
   return (
@@ -21,6 +22,10 @@ const About = () => {
           equities market, a value investing philosophy is utilized to optimize
           learning and portfolio growth.
         </h4>
+
+        <img className='pic1' src={Toronto} alt='toronto' />
+
+        <div className='containerAbout'></div>
       </div>
       <div>
         <Footer />

@@ -30,7 +30,7 @@ a {
 
 .fontUnder {
   font-family: 'Times New Roman', Times, serif;
-  font-weight: normal;
+  font-weight: lighter;
 }
 .child {
   width: 50%;
@@ -46,22 +46,19 @@ h2 {
   margin-bottom: 20px;
 }
 .portfolioTitle {
-  text-decoration: underline;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
 }
 
 h4 {
   font-size: 25px;
 }
 .portfolioDesc {
-  text-align: center;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
-}
-
-.portfolio > img {
-  height: 30px;
-  width: 30px;
+  margin: 20px;
 }
 
 img {
