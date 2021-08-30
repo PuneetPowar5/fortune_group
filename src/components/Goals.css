@@ -7,7 +7,7 @@
 .Goals {
   display: flex;
   position: relative;
-  left: 5em;
+  left: 3.5em;
   top: 2em;
   color: black;
   font-size: 2em;
@@ -17,26 +17,74 @@
   text-transform: uppercase;
 }
 
-.Values {
-  position: relative;
-  list-style: none;
-  font-size: 3em;
-  top: 4em;
-  left: 1em;
-}
-
-.Capital {
+.Value1Logo {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
-  padding-bottom: 2em;
+  position: relative;
+  font-size: 10em;
+  top: 1em;
+  left: 0.3em;
 }
 
-.CapitalIcon {
-  font-size: 5em;
+.CapitalTitle {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 1em;
+  left: 8em;
 }
 
-.CapitalText {
-  padding-bottom: 2em;
+.CapitalDes {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 2em;
+  left: 8em;
+}
+
+.Value2Logo {
+  display: flex;
+  position: relative;
+  font-size: 10em;
+  top: 1.5em;
+  left: 0.3em;
+}
+
+.SkillsTitle {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 4em;
+  left: 9em;
+}
+
+.SkillsDes {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 5em;
+  left: 9em;
+}
+
+.Value3Logo {
+  display: flex;
+  position: relative;
+  font-size: 10em;
+  top: 2em;
+  left: 0.3em;
+}
+
+.NetworkTitle {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 7em;
+  left: 9em;
+}
+
+.NetworkDes {
+  display: flex;
+  position: relative;
+  font-size: 1.5em;
+  top: 8em;
+  left: 9em;
 }

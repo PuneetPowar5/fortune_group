@@ -1,5 +1,5 @@
 .Footer {
-  background-color: #132e57;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -15,29 +15,32 @@
 
 .Instagram {
   width: 100%;
-  color: #fa621c;
+  color: black;
   text-decoration: none;
   transition: all 0.5s linear;
 }
 
 .Instagram:hover {
-  color: white;
+  color: #132e57;
 }
 
 .Linkedin {
   width: 100%;
-  color: #fa621c;
+  color: black;
   text-decoration: none;
   transition: all 0.5s linear;
 }
 
 .Linkedin:hover {
-  color: white;
+  color: #132e57;
 }
 
 .Trademark {
-  justify-content: end;
-  color: #fa621c;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  padding-top: 6em;
+  color: black;
   font-size: 1em;
   letter-spacing: 5px;
 }

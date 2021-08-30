@@ -11,35 +11,33 @@ const Goals = () => {
                             <div className='Goals'>
                                 Our Values
                             </div>
-                            <ul className='Values'>
-                                <li className='Capital'>
-                                    <MdAttachMoney className='CapitalIcon'></MdAttachMoney>
-                                    <div className='CapitalText'>
-                                        Capital Gains
-                                    </div>
-                                    <div>
-                                        Description
-                                    </div>
-                                </li>
-                                <li>
-                                    <SiSkillshare></SiSkillshare>
-                                    <div>
-                                        Acquire Useful Skills
-                                    </div>
-                                    <div>
-                                        Description
-                                    </div>
-                                </li>
-                                <li>
-                                    <GiShakingHands></GiShakingHands>
-                                    <div>
-                                        Network
-                                    </div>
-                                    <div>
-                                        Description
-                                    </div>
-                                </li>
-                            </ul>
+                            <div className='Value1Logo'>
+                                <MdAttachMoney></MdAttachMoney>
+                            </div>
+                            <div className='CapitalTitle'>
+                                Capital Gains
+                            </div>
+                            <div className='CapitalDes'>
+                                Maximize profits with thorough analysis of stocks
+                            </div>
+                            <div className='Value2Logo'>
+                                <SiSkillshare></SiSkillshare>
+                            </div>
+                            <div className='SkillsTitle'>
+                                Acquire Useful Skills
+                            </div>
+                            <div className='SkillsDes'>
+                                Understand and interpret business news and build financial models
+                            </div>
+                            <div className='Value3Logo'>
+                                <GiShakingHands></GiShakingHands>
+                            </div>
+                            <div className='NetworkTitle'>
+                                Network
+                            </div>
+                            <div className='NetworkDes'>
+                                Connect with like-minded individuals who are finance/engineer oriented
+                            </div>
             </div>
         </div>
     );
