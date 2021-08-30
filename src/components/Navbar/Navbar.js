@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import {AiOutlineStock} from 'react-icons/ai';
 import './Navbar.css';
+import logo from './output-onlinepngtools.png'
 
 const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
         <nav className='Navbar'>
             <h1>
                 <Link to='/' className='Home'>
-                    <AiOutlineStock></AiOutlineStock>
+                    <img src={logo} alt='Logo' className='Logo'></img>
                 </Link>
             </h1>
             <ul className={isMobile ? 'MobileLinks' : 'Links'}
