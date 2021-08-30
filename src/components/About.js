@@ -10,6 +10,8 @@ const About = () => {
         <h2 className='aboutTitle'>About Us</h2>
 
         <div className='space'></div>
+        <div className='space'></div>
+        <div className='space'></div>
 
         <h4 className='aboutDesc'>
           The Fortune Group is an investment management company, encompassing
