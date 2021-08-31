@@ -7,7 +7,7 @@ const Footer = () => {
     return(
         <div className='Footer'>
                 <div className='Icons'>
-                    <a href='https://www.instagram.com' className='Instagram'>
+                    <a href='https://www.instagram.com/thefortunegroup_/' className='Instagram'>
                         <AiFillInstagram></AiFillInstagram>
                     </a>
                     <a href="https://www.linkedin.com/company/thefortunegroup/" className='Linkedin'>

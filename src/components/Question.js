@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Question.css';
+import Comp from './Button';
 
 const Question = () => {
     return(
@@ -7,6 +9,9 @@ const Question = () => {
             <div className='Container'>
                 <div className='Question'>
                     Are you ready to start your investing journey?
+                </div>
+                <div className='ContactButton'>
+                    <Comp />
                 </div>
             </div>
         </div>

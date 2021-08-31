@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import {AiOutlineStock} from 'react-icons/ai';
 import './Navbar.css';
 import logo from './output-onlinepngtools.png'
 

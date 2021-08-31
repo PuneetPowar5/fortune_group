@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Team from './components/Team';
 import About from './components/About';
 import Contact from './components/Contact';
+import Holdings from './components/Holdings';
 
 const App = () => {
   return (

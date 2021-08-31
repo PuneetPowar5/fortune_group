@@ -16,3 +16,10 @@
   text-transform: uppercase;
   padding-top: 5em;
 }
+
+.ContactButton {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 25em;
+}

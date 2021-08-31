@@ -27,10 +27,11 @@
 
 .CapitalTitle {
   display: flex;
+  color: red;
   position: relative;
-  font-size: 1.5em;
-  top: 1em;
-  left: 8em;
+  font-size: 2.5em;
+  top: 0.5em;
+  left: 4.7em;
 }
 
 .CapitalDes {
@@ -51,10 +52,11 @@
 
 .SkillsTitle {
   display: flex;
+  color: red;
   position: relative;
-  font-size: 1.5em;
-  top: 4em;
-  left: 9em;
+  font-size: 2.5em;
+  top: 2em;
+  left: 5.5em;
 }
 
 .SkillsDes {
@@ -75,10 +77,11 @@
 
 .NetworkTitle {
   display: flex;
+  color: red;
   position: relative;
-  font-size: 1.5em;
-  top: 7em;
-  left: 9em;
+  font-size: 2.5em;
+  top: 4.2em;
+  left: 5.3em;
 }
 
 .NetworkDes {
