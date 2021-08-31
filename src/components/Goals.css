@@ -27,7 +27,7 @@
 
 .CapitalTitle {
   display: flex;
-  color: red;
+  color: #fa621c;
   position: relative;
   font-size: 2.5em;
   top: 0.5em;
@@ -52,7 +52,7 @@
 
 .SkillsTitle {
   display: flex;
-  color: red;
+  color: #fa621c;
   position: relative;
   font-size: 2.5em;
   top: 2em;
@@ -77,7 +77,7 @@
 
 .NetworkTitle {
   display: flex;
-  color: red;
+  color: #fa621c;
   position: relative;
   font-size: 2.5em;
   top: 4.2em;
