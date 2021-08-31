@@ -2,3 +2,29 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr)
 }
+
+.stocksBody{
+    padding-top: 1.2in;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.title{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+}
+.hold{
+    display: flex;
+    flex-direction: column;
+}
+
+.pitch{
+    font-size: 1.5em;
+    padding: 10px;
+}

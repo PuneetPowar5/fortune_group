@@ -14,3 +14,18 @@
 .pDetails{
     font-size: 1.5em;
 }
+
+.financePics{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.presidentPics{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.softwarePics{
+    display: grid;
+    grid-template-columns: auto auto;
+}
