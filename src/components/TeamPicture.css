@@ -1,5 +1,5 @@
 .container{
-    width:350px;
+    width: 400px;
     height: 15vw;
     display: flex;
     flex-direction: row;
@@ -16,14 +16,18 @@
 .name{
     text-decoration: underline;
     padding-bottom: 5px;
+    font-size: 1.5em;
+    color: #132E57;
+    font-weight: bold;
 }
 
 .role{
-    padding-bottom: 5px;
-
+    padding-bottom: 15%;
+    font-size: 1.5em;
 }
 
 .education{
     padding-bottom: 5px;
+    font-size: 1.5em;
 
 }
