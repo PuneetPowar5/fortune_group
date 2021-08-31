@@ -32,7 +32,7 @@ const Team = () => {
                     <h1 className="position">Financial Analysts</h1>
                     <h2 className="pDetails">Our Financial Analysts research and analyze attractive stocks through utilization of key fincancial metrics, business news, and valuation methods to prepare weekly stock reports.</h2>
                     <div className="financePics">
-                    <TeamPicture pic={AndrewPic} name="Andrew Xu" position="Financial Analyst" edu="Dropout lol"/>
+                    <TeamPicture pic={AndrewPic} name="Andrew Xu" position="Financial Analyst" edu="Math Waterloo"/>
                     <TeamPicture pic={SajeevPic} name="Sajeev lastName" position="Financial Analyst" edu="idk"/>
                     <TeamPicture pic={BradyPic} name="Brady Idkhowtospellit" position="My man does socials right? Anything else?" edu="idk"/>
                     <TeamPicture pic={KarnikPic} name="Karnik Gupta" position="Financial Analyst" edu="idk"/>
@@ -45,7 +45,7 @@ const Team = () => {
                     <h2 className="pDetails">Our Software Engineers are responsible for building and maintaining our website.</h2>
                     <div className="softwarePics">
                     <TeamPicture pic={PuneetPic} name="Puneet Powar" position="Lead Software Developer" edu="CS, Math and Stats UofT"/>
-                    <TeamPicture pic={RhysPic} name="Rhys Collings" position="Even Leader Software Developer" edu="Anti-Math Waterloo"/>
+                    <TeamPicture pic={RhysPic} name="Rhys Collings" position="Even Leader Software Developer" edu="Computer Science Waterloo"/>
                     <TeamPicture pic={MuhammadPic} name="Muhammad Zaidi" position="Copy-Paste Bot" edu="Computer Engineering Waterloo"/>
                     </div>
                 </div>
