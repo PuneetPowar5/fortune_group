@@ -8,6 +8,9 @@ import Question from './Question';
 const Home = () => {
     return(
         <div>
+            <h1 className='Holdings'>
+                View Our Current Holdings!
+            </h1>
             <div>
                 <Title />
             </div>
