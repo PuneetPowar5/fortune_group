@@ -5,17 +5,16 @@
   font-family: Helvetica;
 }
 
-.Navbar {
-  background: transparent;
+.NavbarCopy {
+  background: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100px;
   width: 100%;
-  position: absolute;
 }
 
-.Home {
+.HomeCopy {
   justify-self: start;
   display: flex;
   list-style: none;
@@ -25,23 +24,23 @@
   cursor: pointer;
 }
 
-.Logo {
+.LogoCopy {
   height: 5em;
   width: 5em;
 }
 
-.Links {
+.LinksCopy {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   width: 80%;
 }
 
-.Team,
-.Portfolio,
-.Stocks,
-.About,
-.Contact {
+.TeamCopy,
+.PortfolioCopy,
+.StocksCopy,
+.AboutCopy,
+.ContactCopy {
   text-decoration: none;
   color: black;
   font-size: 25px;
@@ -51,20 +50,20 @@
   transition: all 0.5s linear;
 }
 
-.Team:hover,
-.Portfolio:hover,
-.Stocks:hover,
-.About:hover,
-.Contact:hover {
+.TeamCopy:hover,
+.PortfolioCopy:hover,
+.StocksCopy:hover,
+.AboutCopy:hover,
+.ContactCopy:hover {
   color: #132e57;
 }
 
-.MobileIcon {
+.MobileIconCopy {
   display: none;
 }
 
 @media screen and (max-width: 850px) {
-  .Home {
+  .HomeCopy {
     display: flex;
     position: absolute;
     align-self: center;
@@ -72,11 +71,11 @@
     left: 10px;
   }
 
-  .Links {
+  .LinksCopy {
     display: none;
   }
 
-  .MobileLinks {
+  .MobileLinksCopy {
     position: absolute;
     display: block;
     list-style: none;
@@ -87,11 +86,11 @@
     width: 100%;
   }
 
-  .Team,
-  .Portfolio,
-  .Stocks,
-  .About,
-  .Contact {
+  .TeamCopy,
+  .PortfolioCopy,
+  .StocksCopy,
+  .AboutCopy,
+  .ContactCopy {
     color: white;
     text-align: center;
     padding: 40px;
@@ -99,7 +98,7 @@
     transition: all 1s ease;
   }
 
-  .MobileIcon {
+  .MobileIconCopy {
     display: block;
     position: absolute;
     font-size: 30px;

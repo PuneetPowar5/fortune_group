@@ -14,12 +14,14 @@ import KarnikPic from "../pics/people/tempKarnik.jpg"
 import RhysPic from "../pics/people/tempRhys.jpg"
 import TrevorPic from "../pics/people/trevor.jpg"
 import VacantPic from "../pics/people/vacant.png"
+import Navbar from './Navbar/Navbar';
 //----------------------//
 
 
 const Team = () => {
     return(
         <>
+        <Navbar />
             <div className="teamBody">
                 <div className="president">
                     <h1 className="position">President</h1>

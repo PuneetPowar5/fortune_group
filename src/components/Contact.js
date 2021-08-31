@@ -2,10 +2,12 @@ import React from 'react';
 import "./Contact.css";
 import {AiFillInstagram} from 'react-icons/ai';
 import {AiFillLinkedin} from 'react-icons/ai';
+import NavbarCopy from './Navbar/Navbar copy';
 
 const Contact = () => {
     return(
         <div className="ContactPage">
+            <NavbarCopy />
             <div className='TopLine'>
                 Get In Touch
             </div>

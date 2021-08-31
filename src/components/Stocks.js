@@ -8,10 +8,15 @@ import td from "../stock_pitches/td_bank_stock_pitch.pdf"
 import wsp from "../stock_pitches/wsp_global_inc.pdf"
 import stock from "../pics/buyside-stock-pitch-header.png"
 import Slideshow from "./Slideshow.js"
+import Navbar from './Navbar/Navbar';
 
 const Stocks = () => {
     return(
         <div className="stocksBody">
+            <div>
+                <Navbar />
+            </div>
+
             <h2 className="header">
                 Stock Pitches
             </h2>

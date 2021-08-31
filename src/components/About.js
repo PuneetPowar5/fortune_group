@@ -5,9 +5,13 @@ import AboutBG1 from '../pics/aboutbackground1.jpeg';
 import AboutBG2 from '../pics/investorMeeting.jpeg';
 import AboutBG3 from '../pics/webTeam.jpeg';
 import AboutBG4 from '../pics/incentive.jpeg';
+import Navbar from './Navbar/Navbar';
 const About = () => {
   return (
     <div className='background'>
+      <div>
+        <Navbar />
+      </div>
       <div className='about'>
         <h2 className='aboutTitle'>About Us</h2>
 

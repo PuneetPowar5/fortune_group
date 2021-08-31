@@ -11,7 +11,6 @@ import Contact from './components/Contact';
 const App = () => {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route exact path='/'>
           <Home />

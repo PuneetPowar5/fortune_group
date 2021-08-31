@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Footer from './Footer';
+import Navbar from './Navbar/Navbar';
 import './Portfolio.css';
 
 const Portfolio = () => {
   return (
     <div className='background'>
+      <div>
+        <Navbar />
+      </div>
       <div className='portfolio'>
         <h2 className='portfolioTitle'>The Fund</h2>
         <div className='space'></div>
