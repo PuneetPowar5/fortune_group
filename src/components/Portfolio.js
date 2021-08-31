@@ -28,7 +28,8 @@ const Portfolio = () => {
           </div>
           <div className='child'>
             <h1 className='font'>$5K</h1>
-            <h3 className='fontUnder'>Assets Under Management</h3>
+            <h3 className='fontUnder'>Assets Under </h3>
+            <h3 className='fontUnder'>Management</h3>
           </div>
         </div>
       </div>
