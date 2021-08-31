@@ -23,7 +23,7 @@ const Portfolio = () => {
         <div className='space'></div>
         <div className='containerPortfolio'>
           <div className='child'>
-            <h1 className='font'>5</h1>
+            <h1 className='font'>8</h1>
             <h3 className='fontUnder'>Stock Holdings</h3>
           </div>
           <div className='child'>
