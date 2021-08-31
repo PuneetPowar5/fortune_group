@@ -5,13 +5,16 @@ Orange: #fa621c
 
 .portfolio {
   width: 100%;
-  height: 100vh;
+  height: 750px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: white;
   background-size: cover;
   color: black;
   padding: 20px;
+  padding-top: 1in;
+  margin-bottom: 10%;
 }
 
 a {
@@ -21,15 +24,15 @@ a {
 .inPortfolio {
   padding: 5px;
 }
-.container {
+.containerPortfolio {
   display: flex;
 }
 .font {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .fontUnder {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: lighter;
 }
 .child {
@@ -39,7 +42,7 @@ a {
   font-size: 40px;
   text-align: center;
   margin: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 h2 {
   font-size: 40px;
@@ -47,7 +50,7 @@ h2 {
 }
 .portfolioTitle {
   text-align: left;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 20px;
 }
 
@@ -56,7 +59,7 @@ h4 {
 }
 .portfolioDesc {
   text-align: left;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   margin: 20px;
 }
