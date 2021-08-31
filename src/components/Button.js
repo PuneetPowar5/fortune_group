@@ -7,7 +7,7 @@ const Comp = () => {
     return(
         <div className='Button'>
             <Link to='/contact' className='Contact'>
-                <Button type='contact' color='secondary' style={{ fontSize: '3em' }} className='Con'>
+                <Button type='contact' variant="outlined" color='primary' style={{ fontSize: '2em' }} className='Con'>
                     Contact Us
                 </Button>
             </Link>

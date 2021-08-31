@@ -4,7 +4,8 @@ Orange: #fa621c
 */
 
 .ContactPage {
-  background-color: white;
+  background: url("blue.png");
+  background-size: 100% 100%;
   width: 100%;
   height: 100vh;
   font-family: "Times New Roman";
@@ -15,9 +16,9 @@ Orange: #fa621c
   position: relative;
   text-align: center;
   justify-content: center;
-  top: 40%;
+  top: 25%;
   font-family: "Times New Roman";
-  font-size: 5em;
+  font-size: 5.3em;
   color: black;
 }
 
@@ -27,7 +28,7 @@ Orange: #fa621c
   text-align: center;
   justify-content: center;
   width: 70%;
-  top: 40%;
+  top: 30%;
   left: 15%;
   font-family: "Times New Roman";
   font-size: 2.5em;
