@@ -10,17 +10,21 @@ import Slideshow from "./Slideshow.js"
 
 const Stocks = () => {
     return(
-        <div>
+        <div className="stocksBody">
             <h2>
-                These are a Collection of our Stock Pitches
+                Stock Pitches
             </h2>
-            <div className="presentations">
-            <Slideshow title="Air Canada" stock={airCanada}/>
-            <Slideshow title="Cineplex" stock={cineplex}/>
-            <Slideshow title="Doman Building Materials" stock={doman}/>
-            <Slideshow title="Enbridge" stock={enbridge}/>
-            <Slideshow title="TD Bank" stock={td}/>
-            <Slideshow title="WSP" stock={wsp}/>
+            <div className="buy">
+                <p className="title">Buy Decisions</p>
+                <p className="pitch"><a href={airCanada} target="blank">Air Canada</a></p>
+                <p className="pitch"><a href={cineplex} target="blank">Cineplex</a></p>
+                <p className="pitch"><a href={doman} target="blank">Doman</a></p>
+            </div>
+            <div className="hold">
+                <p className="title">Hold Decisions</p>
+                <p className="pitch"><a href={enbridge} target="blank">Enbride</a></p>
+                <p className="pitch"><a href={td} target="blank">TD Bank</a></p>
+                <p className="pitch"><a href={wsp} target="blank">WSP</a></p>
             </div>
             
         </div>
@@ -28,3 +32,16 @@ const Stocks = () => {
 }
 
 export default Stocks
+
+
+/*
+<div className="presentations">
+            <Slideshow title="Air Canada" stock={airCanada}/>
+            <Slideshow title="Cineplex" stock={cineplex}/>
+            <Slideshow title="Doman Building Materials" stock={doman}/>
+            <Slideshow title="Enbridge" stock={enbridge}/>
+            <Slideshow title="TD Bank" stock={td}/>
+            <Slideshow title="WSP" stock={wsp}/>
+</div>
+
+*/
