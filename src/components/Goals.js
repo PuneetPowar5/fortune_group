@@ -9,7 +9,7 @@ const Goals = () => {
         <div className='GoalsPage'>
             <div className='Container'>
                             <div className='Goals'>
-                                Our Values(MAKE EVERTHING BIGGER)
+                                Our Values
                             </div>
                             <div className='Value1Logo'>
                                 <MdAttachMoney></MdAttachMoney>
