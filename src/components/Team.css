@@ -31,8 +31,8 @@
 }
 
 .presidentPics{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
 }
 
 .softwarePics{

@@ -36,7 +36,7 @@ const Team = () => {
                     <div className="financePics">
                     <TeamPicture pic={AndrewPic} name="Andrew Xu" position="Financial Analyst" edu="Mathematics, University of Waterloo"/>
                     <TeamPicture pic={SajeevPic} name="Sajeev Menon" position="Financial Analyst" edu="Geological Engineering, Queen's University"/>
-                    <TeamPicture pic={KarnikPic} name="Karnik Gupta" position="Financial Analyst" edu="Chemical Engineering, University of Toronto"/>
+                    <TeamPicture pic={VacantPic} name="Karnik Gupta" position="Financial Analyst" edu="Chemical Engineering, University of Toronto"/>
                     <TeamPicture pic={TrevorPic} name="Trevor Smith" position="Financial Analyst" edu="Mechatronics, University of Waterloo"/>
                     <TeamPicture pic={VacantPic} name="William Ho" position="Financial Analyst" edu="Commerce, Wilfrid Laurier University"/>
                     </div>
