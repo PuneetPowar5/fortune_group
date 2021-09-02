@@ -21,52 +21,52 @@ const Stocks = () => {
       <div className='stocksBody'>
         <h2 className='headerStock'>Stock Pitches</h2>
         <img className='stocks' src={stock} alt='stock'></img>
-        <div className='buy'>
+        <ul className='buy'>
           <p className='title'>Buy Decisions</p>
-          <p className='pitch'>
+          <li className='pitch'>
             <a href={airCanada} target='blank'>
               Air Canada (TSX: AC)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={cineplex} target='blank'>
               Cineplex (TSX: CGX)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={doman} target='blank'>
               Doman Building Materials Group (TSX: DBM)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={td} target='blank'>
               Toronto-Dominion Bank (TSX: TD)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={wsp} target='blank'>
               WSP Global (TSX: WSP)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={wsp} target='blank'>
               Intact Financial Corporation (TSX: IFC)
             </a>
-          </p>
-          <p className='pitch'>
+          </li>
+          <li className='pitch'>
             <a href={wsp} target='blank'>
               Alimentation Couche-Tard Inc (TSX: ATD.B)
             </a>
-          </p>
-        </div>
-        <div className='hold'>
+          </li>
+        </ul>
+        <ul className='hold'>
           <p className='title'>Hold Decisions</p>
-          <p className='pitch'>
+          <li className='pitch'>
             <a href={enbridge} target='blank'>
               Enbridge (TSX: ENB)
             </a>
-          </p>
-        </div>
+          </li>
+        </ul>
       </div>
       <Footer />
     </>

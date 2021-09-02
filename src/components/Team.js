@@ -35,7 +35,8 @@ const Team = () => {
               pic={StevePic}
               name='Steve Kang'
               position='President'
-              edu='BMOS, Western University'
+              major='BMOS'
+              school='Western University'
             />
           </div>
         </div>
@@ -51,31 +52,36 @@ const Team = () => {
               pic={AndrewPic}
               name='Andrew Xu'
               position='Financial Analyst'
-              edu='Mathematics, University of Waterloo'
+              major='Mathematics'
+              school='University of Waterloo'
             />
             <TeamPicture
               pic={SajeevPic}
               name='Sajeev Menon'
               position='Financial Analyst'
-              edu="Geological Engineering, Queen's University"
+              major='Geological Engineering'
+              school="Queen's University"
             />
             <TeamPicture
               pic={VacantPic}
               name='Karnik Gupta'
               position='Financial Analyst'
-              edu='Chemical Engineering, University of Toronto'
+              major='Chemical Engineering'
+              school='University of Toronto'
             />
             <TeamPicture
               pic={TrevorPic}
               name='Trevor Smith'
               position='Financial Analyst'
-              edu='Mechatronics Engineering, University of Waterloo'
+              major='Mechatronics'
+              school='University of Waterloo'
             />
             <TeamPicture
               pic={VacantPic}
               name='William Ho'
               position='Financial Analyst'
-              edu='Commerce, Wilfrid Laurier University'
+              major='Commerce'
+              school='Wilfrid Laurier University'
             />
           </div>
         </div>
@@ -90,19 +96,22 @@ const Team = () => {
               pic={PuneetPic}
               name='Puneet Powar'
               position='Lead Software Developer'
-              edu='CS, Math and Stats, University of Toronto'
+              major='CS, Math and Stats'
+              school='University of Toronto'
             />
             <TeamPicture
               pic={RhysPic}
               name='Rhys Collings'
               position='Even Leader Software Developer'
-              edu='Computer Science, University of Waterloo'
+              major='Computer Science'
+              school='University of Waterloo'
             />
             <TeamPicture
               pic={MuhammadPic}
               name='Muhammad Zaidi'
               position='Copy-Paste Bot'
-              edu='Computer Engineering, University of Waterloo'
+              major='Computer Engineering'
+              school='University of Waterloo'
             />
           </div>
         </div>
