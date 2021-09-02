@@ -19,7 +19,7 @@ const Stocks = () => {
       </div>
 
       <div className='stocksBody'>
-        <h2 className='header'>Stock Pitches</h2>
+        <h2 className='headerStock'>Stock Pitches</h2>
         <img className='stocks' src={stock} alt='stock'></img>
         <div className='buy'>
           <p className='title'>Buy Decisions</p>
