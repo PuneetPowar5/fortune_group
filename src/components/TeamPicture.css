@@ -1,4 +1,13 @@
-.container{
+.container-false{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin:10px;
+}
+
+.container-true{
     width: 100%;
     height: 15vw;
     display: flex;
@@ -8,11 +17,13 @@
 }
 
 
+
 .picture{
     height: 15vw;
     width: 15vw;
     margin-right: 10px;
     border-radius: 50%;
+    display: flex;
 }
 
 .name{

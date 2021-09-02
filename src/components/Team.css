@@ -20,6 +20,10 @@
     margin-bottom: 10vh;
 }
 
+.software{
+    margin-bottom: 15vh;
+}
+
 .pDetails{
     width: 80%;
     margin: auto;
@@ -29,6 +33,7 @@
     padding-bottom: 25px;
     border-bottom: 3px solid rgb(177, 177, 177);
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5vh;
 }
 
 .financePics{
