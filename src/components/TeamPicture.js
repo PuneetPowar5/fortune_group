@@ -12,7 +12,7 @@ function TeamPicture(props){
             <img  className="picture" src={props.pic} alt={props.name}></img>
             <div className="text">
             <p className="name">{props.name}</p>
-            <p className="role">{props.position}</p>
+            
             <p className="major">{props.major},</p>
             <p className="school">{props.school}</p>
             </div>
