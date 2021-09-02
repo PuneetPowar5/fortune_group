@@ -14,12 +14,15 @@ const Contact = () => {
             <div className='BottomLine'>
                 If you would like to get in contact or would like more information, please contact us via Linkdln or Instagram
             </div>
-                    <a href='https://www.instagram.com/thefortunegroup_/' className='Insta'>
+            <div className='BottomLinks'>
+                <a href='https://www.instagram.com/thefortunegroup_/' className='Insta'>
                         <AiFillInstagram></AiFillInstagram>
-                    </a>
-                    <a href="https://www.linkedin.com/company/thefortunegroup/" className='Link'>
+                </a>
+                <a href="https://www.linkedin.com/company/thefortunegroup/" className='Link'>
                         <AiFillLinkedin></AiFillLinkedin>
-                    </a>
+                </a>
+
+            </div>
         </div>
     );
 }

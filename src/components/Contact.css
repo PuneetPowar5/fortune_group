@@ -35,28 +35,23 @@ Orange: #fa621c
   color: black;
 }
 
-.Insta {
+.BottomLinks {
   display: flex;
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
+  width: 20%;
   font-size: 5em;
+  justify-content: space-between;
+  cursor: pointer;
   position: relative;
-  justify-content: center;
-  top: 6em;
-  left: 13em;
-  width: 2em;
+  left: 40%;
+  top: 40%;
+}
+
+.Insta {
+  color: black;
+  text-decoration: none;
 }
 
 .Link {
-  display: flex;
-  text-decoration: none;
-  cursor: pointer;
   color: black;
-  font-size: 5em;
-  position: relative;
-  justify-content: center;
-  top: 5em;
-  left: 8em;
-  width: 2em;
+  text-decoration: none;
 }
