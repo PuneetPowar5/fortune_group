@@ -21,15 +21,18 @@
     font-size: 1.5em;
     color: #132E57;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .role{
     padding-bottom: 15%;
     font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .education{
     padding-bottom: 5px;
     font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
 
 }

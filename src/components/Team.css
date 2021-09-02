@@ -9,6 +9,7 @@
     text-align: center;
     margin-bottom: 5px;
     font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .president{
@@ -27,6 +28,7 @@
     font-weight: normal;
     padding-bottom: 25px;
     border-bottom: 3px solid rgb(177, 177, 177);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .financePics{
