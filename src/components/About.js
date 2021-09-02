@@ -32,11 +32,11 @@ const About = () => {
       </div>
       <img className='pic1' src={AboutBG1} alt='AboutBGH' />
       <div className='about2'>
-        <h2 className='aboutTitle'>Investment Meetings</h2>
         <div className='space'></div>
         <div className='space'></div>
         <div className='containerInvest'>
           <div className='child1'>
+            <h2 className='aboutTitle'>Investment Meetings</h2>
             <div className='containerAbout'>
               <h4 className='aboutDesc'>
                 The Fortune Group encompasses financial analysts that meet on a
@@ -53,7 +53,6 @@ const About = () => {
         </div>
       </div>
       <div className='about2'>
-        <h2 className='webTitle'>Web Development Team</h2>
         <div className='space'></div>
         <div className='space'></div>
         <div className='containerInvest'>
@@ -61,6 +60,7 @@ const About = () => {
             <img className='pic2' src={AboutBG3} alt='AboutBG3' />
           </div>
           <div className='child1'>
+            <h2 className='webTitle'>Web Development Team</h2>
             <div className='containerAbout'>
               <h4 className='aboutDesc'>
                 Led by the lead software engineer, the web development team
@@ -73,11 +73,11 @@ const About = () => {
         </div>
       </div>
       <div className='about2'>
-        <h2 className='aboutTitle'>Incentives & Rewards</h2>
         <div className='space'></div>
         <div className='space'></div>
         <div className='containerInvest'>
           <div className='child1'>
+            <h2 className='aboutTitle'>Incentives & Rewards</h2>
             <div className='containerAbout'>
               <h4 className='aboutDesc'>
                 Investors are given the opportunity to act as financial analysts
