@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <div>
             <h1 className='Holdings'>
-                View Our Current Holdings!
+                
             </h1>
             <div>
                 <Navbar />
