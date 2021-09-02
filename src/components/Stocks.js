@@ -12,11 +12,12 @@ import Navbar from './Navbar/Navbar';
 
 const Stocks = () => {
     return(
-        <div className="stocksBody">
-            <div>
-                <Navbar />
-            </div>
+        <>
+        <div>
+            <Navbar />
+        </div>
 
+        <div className="stocksBody">
             <h2 className="header">
                 Stock Pitches
             </h2>
@@ -39,6 +40,7 @@ const Stocks = () => {
             </div>
             
         </div>
+        </>
     );
 }
 

@@ -12,7 +12,11 @@
 }
 
 .president{
-    margin-bottom: 150px;
+    margin-bottom: 10vh;
+}
+
+.finance{
+    margin-bottom: 10vh;
 }
 
 .pDetails{
