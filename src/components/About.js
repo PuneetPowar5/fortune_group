@@ -4,7 +4,7 @@ import Footer from './Footer';
 import AboutBG1 from '../pics/aboutbackground1.jpeg';
 import AboutBG2 from '../pics/investorMeeting.jpeg';
 import AboutBG3 from '../pics/webTeam.jpeg';
-import AboutBG4 from '../pics/incentive.jpeg';
+import AboutBG4 from '../pics/incentive.png';
 import Navbar from './Navbar/Navbar';
 const About = () => {
   return (
@@ -13,12 +13,12 @@ const About = () => {
         <Navbar />
       </div>
       <div className='about'>
-        <h2 className='aboutTitle'>About Us</h2>
+        <h2 className='aboutTitle2'>About Us</h2>
 
         <div className='space'></div>
         <div className='space'></div>
 
-        <h4 className='aboutDesc'>
+        <h4 className='aboutDesc2'>
           The Fortune Group is an investment management company, encompassing
           investments pooled by a group of investors. The firm’s primary mandate
           is to focus on capital gains by following a strategic value investing
@@ -60,7 +60,7 @@ const About = () => {
             <img className='pic2' src={AboutBG3} alt='AboutBG3' />
           </div>
           <div className='child1'>
-            <h2 className='webTitle'>Web Development Team</h2>
+            <h2 className='aboutTitle'>Web Development Team</h2>
             <div className='containerAbout'>
               <h4 className='aboutDesc'>
                 Led by the lead software engineer, the web development team
@@ -92,6 +92,9 @@ const About = () => {
             <img className='pic2' src={AboutBG4} alt='AboutBG4' />
           </div>
         </div>
+        <div className='space'></div>
+        <div className='space'></div>
+        <div className='space'></div>
       </div>
       <div>
         <Footer />
