@@ -1,44 +1,56 @@
-.presentations{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr)
+.presentations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.stocksBody{
-    padding-top: 1.5in;
-    margin-left: 3%;
-    margin-right: 3%;
+.stocksBody {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+  /* margin-left: 1.5%;
+  margin-right: 1.5%; */
+  padding-top: 1.2in;
 }
 
-.title{
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 2em;
+.title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.header{
-    
-    font-size: 5em;
+.headerStock {
+  font-size: 5em;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
 }
 
-.stocks{
-    width: 100%;
-    height: 10%
+.stocks {
+  width: 100%;
+  height: 10%;
 }
 
-.buy{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
+.buy {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-left: 20px;
 }
-.hold{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+.hold {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px;
 }
 
-.pitch{
-    font-size: 1.5em;
-    padding: 10px;
+.pitch {
+  font-size: 1.5em;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
