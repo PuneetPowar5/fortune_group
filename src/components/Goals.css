@@ -13,95 +13,93 @@
   font-weight: 900;
   text-align: center;
   margin-left: 1em;
-  margin-top: 1em;
 }
 
 .Value1Logo {
-  display: flex;
   position: relative;
-  font-size: 10em;
-  top: 1em;
-  left: 0.3em;
+  display: flex;
+  font-size: 20em;
   width: 10%;
+  left: 0.3em;
 }
 
 .CapitalTitle {
   display: flex;
+  position: relative;
+  bottom: 3em;
+  left: 3em;
   font-family: "Times New Roman";
   color: #132e57;
-  position: relative;
-  font-size: 2.5em;
-  top: 0.5em;
-  left: 4.7em;
-  width: 20%;
+  font-size: 6em;
+  width: 50%;
 }
 
 .CapitalDes {
   display: flex;
   font-family: "Times New Roman";
   position: relative;
-  font-size: 1.5em;
-  top: 2em;
-  left: 8em;
-  width: 30%;
+  font-size: 4em;
+  bottom: 4em;
+  left: 4.5em;
+  width: 75%;
 }
 
 .Value2Logo {
   display: flex;
   position: relative;
-  font-size: 10em;
-  top: 1.5em;
+  bottom: 0.5em;
   left: 0.3em;
+  font-size: 20em;
   width: 10%;
 }
 
 .SkillsTitle {
   display: flex;
+  position: relative;
+  bottom: 5em;
+  left: 3em;
   font-family: "Times New Roman";
   color: #132e57;
-  position: relative;
-  font-size: 2.5em;
-  top: 2em;
-  left: 5.5em;
-  width: 30%;
+  font-size: 6em;
+  width: 50%;
 }
 
 .SkillsDes {
   display: flex;
   font-family: "Times New Roman";
   position: relative;
-  font-size: 1.5em;
-  top: 5em;
-  left: 9em;
-  width: 40%;
+  font-size: 3em;
+  bottom: 9em;
+  left: 6em;
+  width: 75%;
 }
 
 .Value3Logo {
   display: flex;
   position: relative;
-  font-size: 10em;
-  top: 2em;
+  bottom: 1.3em;
   left: 0.3em;
+  font-size: 20em;
   width: 10%;
 }
 
 .NetworkTitle {
   display: flex;
+  position: relative;
+  bottom: 7.5em;
+  left: 3em;
   font-family: "Times New Roman";
   color: #132e57;
-  position: relative;
-  font-size: 2.5em;
-  top: 4.2em;
-  left: 5.3em;
-  width: 20%;
+  font-size: 6em;
+  width: 50%;
 }
 
 .NetworkDes {
   display: flex;
   font-family: "Times New Roman";
   position: relative;
-  font-size: 1.5em;
-  top: 8em;
-  left: 9em;
-  width: 45%;
+  font-size: 2.5em;
+  bottom: 18em;
+  left: 7.3em;
+  width: 75%;
 }

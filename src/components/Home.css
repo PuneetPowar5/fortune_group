@@ -7,6 +7,10 @@
   justify-content: center;
   font-size: 1.2em;
   padding-top: 5px;
-  color: #fa621c;
+}
+
+.Pitches {
+  text-decoration: none;
   font-family: "Times New Roman";
+  color: #fa621c;
 }
