@@ -7,24 +7,29 @@
 
 .CompName {
   display: flex;
-  width: 100%;
-  padding-top: 2.5em;
+  position: absolute;
+  width: 70%;
   text-align: center;
   justify-content: center;
   color: black;
   font-size: 3em;
   font-weight: 700;
   text-transform: uppercase;
+  top: 35%;
+  left: 15%;
 }
 
 .Intro {
   display: flex;
+  position: absolute;
   color: black;
   justify-content: center;
-  text-align: left;
-  padding-left: 3em;
-  width: 45%;
-  padding-top: 4em;
+  text-align: center;
+  width: 80%;
   font-size: 2em;
   font-weight: 700;
+  top: 42%;
+  left: 10%;
+  border-top: 3px solid rgb(0, 0, 0);
+  padding-top: 0.2em;
 }

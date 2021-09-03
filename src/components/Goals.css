@@ -6,28 +6,31 @@
 
 .Goals {
   display: flex;
+  position: absolute;
   font-family: "Times New Roman";
   color: black;
   width: 60%;
   font-size: 8em;
   font-weight: 900;
   text-align: center;
-  margin-left: 1em;
+  left: 5%;
 }
 
 .Value1Logo {
-  position: relative;
+  position: absolute;
   display: flex;
   font-size: 20em;
   width: 10%;
-  left: 0.3em;
+  height: 0.9em;
+  left: 3%;
+  top: 113%;
 }
 
 .CapitalTitle {
   display: flex;
-  position: relative;
-  bottom: 3em;
-  left: 3em;
+  position: absolute;
+  top: 120%;
+  left: 13%;
   font-family: "Times New Roman";
   color: #132e57;
   font-size: 6em;
@@ -37,27 +40,27 @@
 .CapitalDes {
   display: flex;
   font-family: "Times New Roman";
-  position: relative;
   font-size: 4em;
-  bottom: 4em;
-  left: 4.5em;
   width: 75%;
+  position: absolute;
+  top: 132%;
+  left: 13%;
 }
 
 .Value2Logo {
   display: flex;
-  position: relative;
-  bottom: 0.5em;
-  left: 0.3em;
+  position: absolute;
+  left: 3%;
+  top: 140%;
   font-size: 20em;
   width: 10%;
 }
 
 .SkillsTitle {
   display: flex;
-  position: relative;
-  bottom: 5em;
-  left: 3em;
+  position: absolute;
+  top: 144%;
+  left: 13%;
   font-family: "Times New Roman";
   color: #132e57;
   font-size: 6em;
@@ -67,27 +70,27 @@
 .SkillsDes {
   display: flex;
   font-family: "Times New Roman";
-  position: relative;
   font-size: 3em;
-  bottom: 9em;
-  left: 6em;
   width: 75%;
+  position: absolute;
+  top: 158%;
+  left: 13%;
 }
 
 .Value3Logo {
   display: flex;
-  position: relative;
-  bottom: 1.3em;
-  left: 0.3em;
+  position: absolute;
+  left: 3%;
+  top: 170%;
   font-size: 20em;
   width: 10%;
 }
 
 .NetworkTitle {
   display: flex;
-  position: relative;
-  bottom: 7.5em;
-  left: 3em;
+  position: absolute;
+  top: 175%;
+  left: 13%;
   font-family: "Times New Roman";
   color: #132e57;
   font-size: 6em;
@@ -97,9 +100,9 @@
 .NetworkDes {
   display: flex;
   font-family: "Times New Roman";
-  position: relative;
   font-size: 2.5em;
-  bottom: 18em;
-  left: 7.3em;
   width: 75%;
+  position: absolute;
+  top: 185%;
+  left: 13%;
 }

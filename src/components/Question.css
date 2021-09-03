@@ -6,21 +6,26 @@
 
 .Question {
   display: flex;
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 80%;
   text-align: center;
   justify-content: center;
+  align-items: center;
   color: black;
   font-size: 4em;
   font-weight: 700;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  top: 5em;
+  top: 220%;
+  left: 10%;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid rgb(177, 177, 177);
 }
 
 .ContactButton {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 25em;
+  position: absolute;
+  top: 240%;
+  left: 35%;
 }
