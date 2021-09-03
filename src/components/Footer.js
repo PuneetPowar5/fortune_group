@@ -7,10 +7,10 @@ const Footer = () => {
     return(
         <div className='Footer'>
                 <div className='Icons'>
-                    <a href='https://www.instagram.com/thefortunegroup_/' className='Instagram'>
+                    <a href='https://www.instagram.com/thefortunegroup_/' target='blank' className='Instagram'>
                         <AiFillInstagram></AiFillInstagram>
                     </a>
-                    <a href="https://www.linkedin.com/company/thefortunegroup/" className='Linkedin'>
+                    <a href="https://www.linkedin.com/company/thefortunegroup/" target='blank' className='Linkedin'>
                         <AiFillLinkedin></AiFillLinkedin>
                     </a>
                 </div>
