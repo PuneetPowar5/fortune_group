@@ -38,6 +38,9 @@ const Goals = () => {
                             <div className='NetworkDes'>
                                 Connect with like-minded individuals who are finance/engineer oriented
                             </div>
+                            <div className='LineOne'></div>
+                            <div className='LineTwo'></div>
+                            <div className='LineThree'></div>
             </div>
         </div>
     );

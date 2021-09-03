@@ -16,6 +16,33 @@
   left: 5%;
 }
 
+.LineOne {
+  display: flex;
+  position: absolute;
+  border-bottom: 3px solid rgb(177, 177, 177);
+  width: 80%;
+  left: 5%;
+  top: 118%;
+}
+
+.LineTwo {
+  display: flex;
+  position: absolute;
+  border-bottom: 3px solid rgb(177, 177, 177);
+  width: 80%;
+  left: 5%;
+  top: 143%;
+}
+
+.LineThree {
+  display: flex;
+  position: absolute;
+  border-bottom: 3px solid rgb(177, 177, 177);
+  width: 80%;
+  left: 5%;
+  top: 173%;
+}
+
 .Value1Logo {
   position: absolute;
   display: flex;
