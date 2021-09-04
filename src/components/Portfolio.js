@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div className='portfolio'>
         <h2 className='portfolioTitle'>The Fund</h2>
         <div className='space'></div>
-        <div className='space'></div>
+
         <h4 className='portfolioDesc'>
           The Fortune Group holds a bottom-up investment approach to align our
           value investing philosophy with our company goals. Through the

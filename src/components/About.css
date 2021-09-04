@@ -23,7 +23,7 @@ Orange: #fa621c
   background-size: cover;
   color: black;
   padding: 20px;
-  padding-top: 0.5in;
+  /* padding-top: 0.5in; */
 }
 
 a {
@@ -81,7 +81,7 @@ h4 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   margin: 20px;
-  font-size: 35px;
+  font-size: 25px;
 }
 .containerAbout {
   border-top: 3px solid rgb(177, 177, 177);
