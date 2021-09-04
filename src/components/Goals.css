@@ -10,10 +10,11 @@
   font-family: "Times New Roman";
   color: black;
   width: 60%;
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 900;
   text-align: center;
   left: 5%;
+  top: 108%;
 }
 
 .LineOne {
@@ -50,27 +51,27 @@
   width: 10%;
   height: 0.9em;
   left: 3%;
-  top: 113%;
+  top: 116%;
 }
 
 .CapitalTitle {
   display: flex;
   position: absolute;
-  top: 120%;
+  top: 125%;
   left: 13%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 6em;
+  font-size: 4em;
   width: 50%;
 }
 
 .CapitalDes {
   display: flex;
   font-family: "Times New Roman";
-  font-size: 4em;
+  font-size: 3em;
   width: 75%;
   position: absolute;
-  top: 132%;
+  top: 133%;
   left: 13%;
 }
 
@@ -78,7 +79,7 @@
   display: flex;
   position: absolute;
   left: 3%;
-  top: 140%;
+  top: 143%;
   font-size: 20em;
   width: 10%;
 }
@@ -86,11 +87,11 @@
 .SkillsTitle {
   display: flex;
   position: absolute;
-  top: 144%;
-  left: 13%;
+  top: 150%;
+  left: 14%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 6em;
+  font-size: 4em;
   width: 50%;
 }
 
@@ -101,14 +102,14 @@
   width: 75%;
   position: absolute;
   top: 158%;
-  left: 13%;
+  left: 14%;
 }
 
 .Value3Logo {
   display: flex;
   position: absolute;
   left: 3%;
-  top: 170%;
+  top: 173%;
   font-size: 20em;
   width: 10%;
 }
@@ -116,11 +117,11 @@
 .NetworkTitle {
   display: flex;
   position: absolute;
-  top: 175%;
-  left: 13%;
+  top: 180%;
+  left: 14%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 6em;
+  font-size: 4em;
   width: 50%;
 }
 
@@ -130,6 +131,18 @@
   font-size: 2.5em;
   width: 75%;
   position: absolute;
-  top: 185%;
-  left: 13%;
+  top: 190%;
+  left: 14%;
+}
+
+@media screen and (max-width: 1696px) {
+  .CapitalDes {
+    display: flex;
+    font-family: "Times New Roman";
+    font-size: 2.5em;
+    width: 75%;
+    position: absolute;
+    top: 133%;
+    left: 13%;
+  }
 }
