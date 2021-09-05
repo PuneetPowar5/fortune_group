@@ -10,11 +10,11 @@
   font-family: "Times New Roman";
   color: black;
   width: 60%;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 900;
   text-align: center;
   left: 5%;
-  top: 108%;
+  top: 110%;
 }
 
 .LineOne {
@@ -61,14 +61,14 @@
   left: 13%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 4em;
+  font-size: 3em;
   width: 50%;
 }
 
 .CapitalDes {
   display: flex;
   font-family: "Times New Roman";
-  font-size: 3em;
+  font-size: 2em;
   width: 75%;
   position: absolute;
   top: 133%;
@@ -87,21 +87,21 @@
 .SkillsTitle {
   display: flex;
   position: absolute;
-  top: 150%;
+  top: 152%;
   left: 14%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 4em;
+  font-size: 3em;
   width: 50%;
 }
 
 .SkillsDes {
   display: flex;
   font-family: "Times New Roman";
-  font-size: 3em;
+  font-size: 2em;
   width: 75%;
   position: absolute;
-  top: 158%;
+  top: 160%;
   left: 14%;
 }
 
@@ -117,18 +117,18 @@
 .NetworkTitle {
   display: flex;
   position: absolute;
-  top: 180%;
+  top: 182%;
   left: 14%;
   font-family: "Times New Roman";
   color: #132e57;
-  font-size: 4em;
+  font-size: 3em;
   width: 50%;
 }
 
 .NetworkDes {
   display: flex;
   font-family: "Times New Roman";
-  font-size: 2.5em;
+  font-size: 2em;
   width: 75%;
   position: absolute;
   top: 190%;
