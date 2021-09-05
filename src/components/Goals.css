@@ -194,6 +194,17 @@
 }
 
 @media screen and (max-width: 808px) {
+  .NetworkTitle {
+    display: flex;
+    position: absolute;
+    top: 182%;
+    left: 14%;
+    font-family: "Times New Roman";
+    color: #132e57;
+    font-size: 3em;
+    width: 50%;
+  }
+
   .NetworkDes {
     display: flex;
     font-family: "Times New Roman";
@@ -327,11 +338,11 @@
   .NetworkTitle {
     display: flex;
     position: absolute;
-    top: 182%;
+    top: 185%;
     left: 14%;
     font-family: "Times New Roman";
     color: #132e57;
-    font-size: 4em;
+    font-size: 2em;
     width: 50%;
   }
 
