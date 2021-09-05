@@ -35,23 +35,67 @@ Orange: #fa621c
   color: black;
 }
 
-.BottomLinks {
-  display: flex;
-  width: 20%;
-  font-size: 5em;
-  justify-content: space-between;
-  cursor: pointer;
-  position: relative;
-  left: 40%;
-  top: 40%;
-}
-
 .Insta {
   color: black;
   text-decoration: none;
+  display: flex;
+  width: 5%;
+  font-size: 5em;
+  cursor: pointer;
+  position: absolute;
+  left: 55%;
+  top: 62%;
 }
 
 .Link {
   color: black;
   text-decoration: none;
+  display: flex;
+  width: 5%;
+  font-size: 5em;
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+  top: 62%;
+}
+
+@media screen and (max-width: 1270px) {
+  .BottomLine {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    top: 30%;
+    left: 15%;
+    font-family: "Times New Roman";
+    font-size: 2em;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .TopLine {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 25%;
+    font-family: "Times New Roman";
+    font-size: 3em;
+    color: black;
+  }
+
+  .BottomLine {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    top: 30%;
+    left: 15%;
+    font-family: "Times New Roman";
+    font-size: 1.5em;
+    color: black;
+  }
 }
