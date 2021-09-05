@@ -99,3 +99,81 @@ Orange: #fa621c
     color: black;
   }
 }
+
+@media screen and (max-height: 810px) {
+  .Insta {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 55%;
+    top: 70%;
+  }
+
+  .Link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+  }
+}
+
+@media screen and (max-height: 635px) {
+  .Insta {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+  }
+
+  .Link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 80%;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  .Insta {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 55%;
+    top: 85%;
+  }
+
+  .Link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 5%;
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+  }
+}
