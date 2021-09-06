@@ -7,6 +7,7 @@ import enbridge from '../stock_pitches/enbridge.pdf';
 import td from '../stock_pitches/td_bank_stock_pitch.pdf';
 import wsp from '../stock_pitches/wsp_global_inc.pdf';
 import stock from '../pics/buyside-stock-pitch-header.png';
+import alimentation from '../stock_pitches/atd-b.pdf';
 import Slideshow from './Slideshow.js';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer';
@@ -54,7 +55,7 @@ const Stocks = () => {
             </a>
           </li>
           <li className='pitch'>
-            <a href={wsp} target='blank'>
+            <a href={alimentation} target='blank'>
               Alimentation Couche-Tard Inc (TSX: ATD.B)
             </a>
           </li>

@@ -10,8 +10,8 @@ import MuhammadPic from '../pics/people/muhammad.jpg';
 import PuneetPic from '../pics/people/puneet.jpg';
 import SajeevPic from '../pics/people/sajeev.jpg';
 import BradyPic from '../pics/people/tempBrady.jpg';
-import KarnikPic from '../pics/people/tempKarnik.jpg';
-import RhysPic from '../pics/people/tempRhys.jpg';
+import KarnikPic from '../pics/people/karnik.jpg';
+import RhysPic from '../pics/people/rhys.jpg';
 import TrevorPic from '../pics/people/trevor.jpg';
 import VacantPic from '../pics/people/vacant.png';
 import Navbar from './Navbar/Navbar';
@@ -35,7 +35,7 @@ const Team = () => {
                     <div className="financePics">
                     <TeamPicture pic={AndrewPic} name="Andrew Xu"  major="Mathematics" school="University of Waterloo"/>
                     <TeamPicture pic={SajeevPic} name="Sajeev Menon"  major="Geological Engineering" school="Queen's University"/>
-                    <TeamPicture pic={VacantPic} name="Karnik Gupta" major="Chemical Engineering" school="University of Toronto"/>
+                    <TeamPicture pic={KarnikPic} name="Karnik Gupta" major="Chemical Engineering" school="University of Toronto"/>
                     <TeamPicture pic={TrevorPic} name="Trevor Smith" major="Mechatronics" school="University of Waterloo"/>
                     <TeamPicture pic={VacantPic} name="William Ho" major="Commerce" school="Wilfrid Laurier University"/>
                     </div>
