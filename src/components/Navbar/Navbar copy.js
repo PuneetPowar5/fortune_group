@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar copy.css';
-import logo from './output-onlinepngtools.png'
+import logo from '../../pics/LogoNew.png'
 
 const NavbarCopy = () => {
     const [isMobile, setIsMobile] = useState(false);

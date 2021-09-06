@@ -8,6 +8,7 @@ import td from '../stock_pitches/td_bank_stock_pitch.pdf';
 import wsp from '../stock_pitches/wsp_global_inc.pdf';
 import stock from '../pics/buyside-stock-pitch-header.png';
 import alimentation from '../stock_pitches/atd-b.pdf';
+import intact from '../stock_pitches/Intact_Financial_Corp_stock.pdf';
 import Slideshow from './Slideshow.js';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer';
@@ -50,7 +51,7 @@ const Stocks = () => {
             </a>
           </li>
           <li className='pitch'>
-            <a href={wsp} target='blank'>
+            <a href={intact} target='blank'>
               Intact Financial Corporation (TSX: IFC)
             </a>
           </li>
