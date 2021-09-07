@@ -26,8 +26,8 @@
 }
 
 .Logo {
-  height: 5em;
-  width: 5em;
+  height: 3.8em;
+  width: 3.8em;
 }
 
 .Links {
@@ -82,7 +82,7 @@
     list-style: none;
     background-color: black;
     left: 0;
-    top: 80px;
+    top: 60px;
     transition: all 1s ease-out;
     width: 100%;
   }

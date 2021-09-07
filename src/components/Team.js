@@ -9,7 +9,6 @@ import AndrewPic from '../pics/people/andrew.jpg';
 import MuhammadPic from '../pics/people/muhammad.jpg';
 import PuneetPic from '../pics/people/puneet.jpg';
 import SajeevPic from '../pics/people/sajeev.jpg';
-import BradyPic from '../pics/people/tempBrady.jpg';
 import KarnikPic from '../pics/people/karnik.jpg';
 import RhysPic from '../pics/people/rhys.jpg';
 import TrevorPic from '../pics/people/trevor.jpg';
