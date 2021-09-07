@@ -9,7 +9,7 @@ const Title = () => {
                                 Premier Student Lead Investment Fund
                             </div>
                             <div className='Intro'>
-                                Established by a team of 10 university students aiming to maximize capital gains through value investing philosophy
+                                Established by a team of 10 university students aiming to maximize capital gains through the value investing philosophy.
                             </div>
             </div>
         </div>
