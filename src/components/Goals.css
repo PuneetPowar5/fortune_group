@@ -135,130 +135,36 @@
   left: 14%;
 }
 
-@media screen and (max-width: 1696px) {
+@media screen and (max-width: 832px) {
+  .CapitalTitle {
+    display: flex;
+    position: absolute;
+    top: 128%;
+    left: 13%;
+    font-family: "Times New Roman";
+    color: #132e57;
+    font-size: 2em;
+    width: 50%;
+  }
+
   .CapitalDes {
     display: flex;
     font-family: "Times New Roman";
-    font-size: 2.5em;
+    font-size: 1em;
     width: 75%;
     position: absolute;
     top: 133%;
     left: 13%;
   }
-}
 
-@media screen and (max-width: 1110px) {
   .SkillsTitle {
     display: flex;
     position: absolute;
-    top: 150%;
+    top: 155%;
     left: 14%;
     font-family: "Times New Roman";
     color: #132e57;
-    font-size: 3em;
-    width: 50%;
-  }
-
-  .SkillsDes {
-    display: flex;
-    font-family: "Times New Roman";
-    font-size: 2em;
-    width: 75%;
-    position: absolute;
-    top: 158%;
-    left: 14%;
-  }
-}
-
-@media screen and (max-width: 832px) {
-  .SkillsTitle {
-    display: flex;
-    position: absolute;
-    top: 152%;
-    left: 14%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 2.5em;
-    width: 50%;
-  }
-
-  .SkillsDes {
-    display: flex;
-    font-family: "Times New Roman";
     font-size: 1.5em;
-    width: 75%;
-    position: absolute;
-    top: 158%;
-    left: 14%;
-  }
-}
-
-@media screen and (max-width: 808px) {
-  .NetworkTitle {
-    display: flex;
-    position: absolute;
-    top: 182%;
-    left: 14%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 3em;
-    width: 50%;
-  }
-
-  .NetworkDes {
-    display: flex;
-    font-family: "Times New Roman";
-    font-size: 2em;
-    width: 75%;
-    position: absolute;
-    top: 187%;
-    left: 14%;
-  }
-
-  .Goals {
-    display: flex;
-    position: absolute;
-    font-family: "Times New Roman";
-    color: black;
-    width: 60%;
-    font-size: 5em;
-    font-weight: 900;
-    text-align: center;
-    left: 5%;
-    top: 108%;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .CapitalTitle {
-    display: flex;
-    position: absolute;
-    top: 125%;
-    left: 13%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 3em;
-    width: 50%;
-  }
-
-  .CapitalDes {
-    display: flex;
-    font-family: "Times New Roman";
-    font-size: 2em;
-    width: 75%;
-    position: absolute;
-    top: 131%;
-    left: 13%;
-  }
-
-  .SkillsTitle {
-    display: flex;
-    position: absolute;
-    top: 156%;
-    left: 14%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 2em;
     width: 50%;
   }
 
@@ -270,69 +176,6 @@
     position: absolute;
     top: 160%;
     left: 14%;
-  }
-
-  .Goals {
-    display: flex;
-    position: absolute;
-    font-family: "Times New Roman";
-    color: black;
-    width: 60%;
-    font-size: 4em;
-    font-weight: 900;
-    text-align: center;
-    left: 5%;
-    top: 108%;
-  }
-}
-
-@media screen and (max-width: 702px) {
-  .CapitalTitle {
-    display: flex;
-    position: absolute;
-    top: 127%;
-    left: 13%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 2em;
-    width: 50%;
-  }
-
-  .SkillsTitle {
-    display: flex;
-    position: absolute;
-    top: 157%;
-    left: 14%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 1.5em;
-    width: 50%;
-  }
-
-  .Goals {
-    display: flex;
-    position: absolute;
-    font-family: "Times New Roman";
-    color: black;
-    width: 60%;
-    font-size: 3em;
-    font-weight: 900;
-    text-align: center;
-    left: 5%;
-    top: 112%;
-  }
-}
-
-@media screen and (max-width: 416px) {
-  .SkillsTitle {
-    display: flex;
-    position: absolute;
-    top: 158%;
-    left: 14%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 1.2em;
-    width: 50%;
   }
 
   .NetworkTitle {
@@ -352,40 +195,23 @@
     font-size: 1em;
     width: 75%;
     position: absolute;
-    top: 189%;
+    top: 190%;
     left: 14%;
   }
+}
+
+@media screen and (max-width: 640px) {
   .Goals {
     display: flex;
     position: absolute;
     font-family: "Times New Roman";
     color: black;
     width: 60%;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 900;
     text-align: center;
     left: 5%;
-    top: 114%;
-  }
-
-  .CapitalTitle {
-    display: flex;
-    position: absolute;
-    top: 131%;
-    left: 13%;
-    font-family: "Times New Roman";
-    color: #132e57;
-    font-size: 1em;
-    width: 50%;
-  }
-  .CapitalDes {
-    display: flex;
-    font-family: "Times New Roman";
-    font-size: 1em;
-    width: 75%;
-    position: absolute;
-    top: 133%;
-    left: 13%;
+    top: 115%;
   }
 }
 
