@@ -1,53 +1,53 @@
-.teamBody{
-    padding-top: 2in;
-    padding-left: 10%;
-    padding-right: 10%;
+.teamBody {
+  padding-top: 2in;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.position{
-    font-size: 5em;
-    text-align: center;
-    margin-bottom: 5px;
-    font-weight: normal;
-    font-family: 'Times New Roman', Times, serif;
+.position {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.president{
-    margin-bottom: 10vh;
+.president {
+  margin-bottom: 10vh;
 }
 
-.finance{
-    margin-bottom: 10vh;
+.finance {
+  margin-bottom: 10vh;
 }
 
-.software{
-    margin-bottom: 15vh;
+.software {
+  margin-bottom: 15vh;
 }
 
-.pDetails{
-    width: 80%;
-    margin: auto;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: normal;
-    padding-bottom: 25px;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 5vh;
+.pDetails {
+  width: 80%;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 25px;
+  border-bottom: 3px solid rgb(177, 177, 177);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5vh;
 }
 
-.financePics{
-    display: grid;
-    grid-template-columns: auto auto;
+.financePics {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-.presidentPics{
-    display: flex;
-    justify-content: center;
-    align-items: center
+.presidentPics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.softwarePics{
-    display: grid;
-    grid-template-columns: auto auto;
+.softwarePics {
+  display: grid;
+  grid-template-columns: auto auto;
 }
