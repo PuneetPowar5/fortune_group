@@ -40,31 +40,49 @@
   padding-top: 0.2em;
 }
 
-@media screen and (max-width: 1556px) {
+@media screen and (max-width: 1600px), screen and (max-height: 900px) {
   .CompName {
     display: flex;
     position: absolute;
     width: 70%;
+    font-family: "Times New Roman";
     text-align: center;
     justify-content: center;
     color: black;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
     top: 37%;
     left: 15%;
   }
+
+  .Intro {
+    display: flex;
+    position: absolute;
+    font-family: "Times New Roman";
+    color: black;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    font-size: 1em;
+    font-weight: 700;
+    top: 42%;
+    left: 10%;
+    border-top: 3px solid rgb(0, 0, 0);
+    padding-top: 0.2em;
+  }
 }
 
-@media screen and (max-width: 1298px) {
+@media screen and (max-width: 1040px), screen and (max-height: 736px) {
   .CompName {
     display: flex;
     position: absolute;
     width: 70%;
+    font-family: "Times New Roman";
     text-align: center;
     justify-content: center;
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
     top: 38%;
@@ -74,11 +92,12 @@
   .Intro {
     display: flex;
     position: absolute;
+    font-family: "Times New Roman";
     color: black;
     justify-content: center;
     text-align: center;
     width: 80%;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 700;
     top: 42%;
     left: 10%;
@@ -87,15 +106,16 @@
   }
 }
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 778px), screen and (max-height: 664px) {
   .CompName {
     display: flex;
     position: absolute;
     width: 70%;
+    font-family: "Times New Roman";
     text-align: center;
     justify-content: center;
     color: black;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
     top: 39%;
@@ -105,37 +125,7 @@
   .Intro {
     display: flex;
     position: absolute;
-    color: black;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    font-size: 1em;
-    font-weight: 700;
-    top: 42%;
-    left: 10%;
-    border-top: 3px solid rgb(0, 0, 0);
-    padding-top: 0.2em;
-  }
-}
-
-@media screen and (max-width: 782px) {
-  .CompName {
-    display: flex;
-    position: absolute;
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-    color: black;
-    font-size: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    top: 40%;
-    left: 15%;
-  }
-
-  .Intro {
-    display: flex;
-    position: absolute;
+    font-family: "Times New Roman";
     color: black;
     justify-content: center;
     text-align: center;
@@ -149,60 +139,31 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 520px), screen and (max-height: 518px) {
   .CompName {
     display: flex;
     position: absolute;
     width: 70%;
+    font-family: "Times New Roman";
     text-align: center;
     justify-content: center;
     color: black;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 700;
     text-transform: uppercase;
-    top: 40%;
+    top: 39%;
     left: 15%;
   }
 
   .Intro {
     display: flex;
     position: absolute;
+    font-family: "Times New Roman";
     color: black;
     justify-content: center;
     text-align: center;
     width: 80%;
     font-size: 0.5em;
-    font-weight: 700;
-    top: 42%;
-    left: 10%;
-    border-top: 3px solid rgb(0, 0, 0);
-    padding-top: 0.2em;
-  }
-}
-
-@media screen and (max-width: 418px) {
-  .CompName {
-    display: flex;
-    position: absolute;
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-    color: black;
-    font-size: 0.6em;
-    font-weight: 700;
-    text-transform: uppercase;
-    top: 41%;
-    left: 15%;
-  }
-
-  .Intro {
-    display: flex;
-    position: absolute;
-    color: black;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    font-size: 0.3em;
     font-weight: 700;
     top: 42%;
     left: 10%;

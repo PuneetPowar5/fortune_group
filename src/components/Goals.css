@@ -135,7 +135,7 @@
   left: 14%;
 }
 
-@media screen and (max-width: 832px) {
+@media screen and (max-width: 1024px), screen and (max-height: 690px) {
   .CapitalTitle {
     display: flex;
     position: absolute;
@@ -198,9 +198,7 @@
     top: 190%;
     left: 14%;
   }
-}
 
-@media screen and (max-width: 640px) {
   .Goals {
     display: flex;
     position: absolute;
@@ -212,6 +210,71 @@
     text-align: center;
     left: 5%;
     top: 115%;
+  }
+}
+
+@media screen and (max-width: 510px), screen and (max-height: 665px) {
+  .CapitalTitle {
+    display: flex;
+    position: absolute;
+    top: 133%;
+    left: 13%;
+    font-family: "Times New Roman";
+    color: #132e57;
+    font-size: 1em;
+    width: 50%;
+  }
+
+  .CapitalDes {
+    display: flex;
+    font-family: "Times New Roman";
+    font-size: 0.7em;
+    width: 75%;
+    position: absolute;
+    top: 137%;
+    left: 13%;
+  }
+
+  .SkillsTitle {
+    display: flex;
+    position: absolute;
+    top: 159%;
+    left: 14%;
+    font-family: "Times New Roman";
+    color: #132e57;
+    font-size: 1em;
+    width: 50%;
+  }
+
+  .SkillsDes {
+    display: flex;
+    font-family: "Times New Roman";
+    font-size: 0.7em;
+    width: 75%;
+    position: absolute;
+    top: 163%;
+    left: 14%;
+  }
+
+  .NetworkTitle {
+    display: flex;
+    position: absolute;
+    top: 189%;
+    left: 14%;
+    font-family: "Times New Roman";
+    color: #132e57;
+    font-size: 1em;
+    width: 50%;
+  }
+
+  .NetworkDes {
+    display: flex;
+    font-family: "Times New Roman";
+    font-size: 0.7em;
+    width: 75%;
+    position: absolute;
+    top: 193%;
+    left: 14%;
   }
 }
 
@@ -251,35 +314,6 @@
     border-bottom: 3px solid rgb(177, 177, 177);
     width: 80%;
     left: 5%;
-    top: 121%;
-  }
-
-  .LineTwo {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
-    top: 146%;
-  }
-
-  .LineThree {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
-    top: 176%;
-  }
-}
-
-@media screen and (max-height: 830px) {
-  .LineOne {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
     top: 123%;
   }
 
@@ -309,7 +343,65 @@
     border-bottom: 3px solid rgb(177, 177, 177);
     width: 80%;
     left: 5%;
-    top: 126%;
+    top: 123%;
+  }
+
+  .LineTwo {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 148%;
+  }
+
+  .LineThree {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 178%;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .LineOne {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 125%;
+  }
+
+  .LineTwo {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 148%;
+  }
+
+  .LineThree {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 178%;
+  }
+}
+
+@media screen and (max-height: 460px) {
+  .LineOne {
+    display: flex;
+    position: absolute;
+    border-bottom: 3px solid rgb(177, 177, 177);
+    width: 80%;
+    left: 5%;
+    top: 128%;
   }
 
   .LineTwo {
@@ -328,46 +420,5 @@
     width: 80%;
     left: 5%;
     top: 181%;
-  }
-}
-
-@media screen and (max-height: 510px) {
-  .NetworkDes {
-    display: flex;
-    font-family: "Times New Roman";
-    font-size: 1.5em;
-    width: 75%;
-    position: absolute;
-    top: 195%;
-    left: 14%;
-  }
-}
-
-@media screen and (max-height: 500px) {
-  .LineOne {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
-    top: 129%;
-  }
-
-  .LineTwo {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
-    top: 154%;
-  }
-
-  .LineThree {
-    display: flex;
-    position: absolute;
-    border-bottom: 3px solid rgb(177, 177, 177);
-    width: 80%;
-    left: 5%;
-    top: 183%;
   }
 }

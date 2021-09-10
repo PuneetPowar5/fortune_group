@@ -7,6 +7,7 @@
 .Question {
   display: flex;
   position: absolute;
+  font-family: "Times New Roman";
   width: 80%;
   text-align: center;
   justify-content: center;
@@ -30,10 +31,11 @@
   left: 40%;
 }
 
-@media screen and (max-width: 1696px) {
+@media screen and (max-width: 1710px), screen and (max-height: 930px) {
   .Question {
     display: flex;
     position: absolute;
+    font-family: "Times New Roman";
     width: 80%;
     text-align: center;
     justify-content: center;
@@ -50,20 +52,11 @@
   }
 }
 
-@media screen and (max-width: 1266px) {
-  .ContactButton {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 260%;
-    left: 34%;
-  }
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1284px), screen and (max-height: 725px) {
   .Question {
     display: flex;
     position: absolute;
+    font-family: "Times New Roman";
     width: 80%;
     text-align: center;
     justify-content: center;
@@ -83,25 +76,16 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 250%;
-    left: 32%;
+    top: 260%;
+    left: 35%;
   }
 }
 
-@media screen and (max-width: 850px) {
-  .ContactButton {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 250%;
-    left: 28%;
-  }
-}
-
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 856px), screen and (max-height: 465px) {
   .Question {
     display: flex;
     position: absolute;
+    font-family: "Times New Roman";
     width: 80%;
     text-align: center;
     justify-content: center;
@@ -111,7 +95,7 @@
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    top: 242%;
+    top: 245%;
     left: 10%;
     padding-bottom: 0.3em;
     border-bottom: 3px solid rgb(177, 177, 177);
@@ -121,17 +105,27 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 250%;
-    left: 20%;
+    top: 260%;
+    left: 28%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 636px), screen and (max-height: 410px) {
   .ContactButton {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 250%;
-    left: 4%;
+    top: 260%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 430px), screen and (max-height: 360px) {
+  .ContactButton {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 265%;
+    left: 0.5%;
   }
 }
