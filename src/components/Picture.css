@@ -1,0 +1,10 @@
+.Picture {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("picture.png");
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+}

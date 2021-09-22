@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Question from './Question';
 import Navbar from './Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Picture from './Picture';
 
 const Home = () => {
     return(
@@ -23,6 +24,9 @@ const Home = () => {
             </div>
             <div>
                 <Goals />
+            </div>
+            <div>
+                <Picture />
             </div>
             <div>
                 <Question />
