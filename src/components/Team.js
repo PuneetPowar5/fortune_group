@@ -7,7 +7,7 @@ import TeamPicture from './TeamPicture.js';
 import StevePic from '../pics/people/steve.jpg';
 import AndrewPic from '../pics/people/andrew.jpg';
 import MuhammadPic from '../pics/people/muhammad.jpg';
-import PuneetPic from '../pics/people/Puneet.JPG';
+import PuneetPic from '../pics/people/Puneet.jpg';
 import SajeevPic from '../pics/people/sajeev.jpg';
 import KarnikPic from '../pics/people/karnik.jpg';
 import RhysPic from '../pics/people/rhys.jpg';
