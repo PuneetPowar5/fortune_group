@@ -20,7 +20,7 @@
   font-size: 3em;
   font-weight: 700;
   text-transform: uppercase;
-  top: 45%;
+  top: 35%;
   left: 15%;
 }
 
@@ -34,7 +34,7 @@
   width: 80%;
   font-size: 2em;
   font-weight: 700;
-  top: 52%;
+  top: 42%;
   left: 10%;
   border-top: 3px solid rgb(0, 0, 0);
   padding-top: 0.2em;
@@ -52,7 +52,7 @@
     font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
-    top: 47%;
+    top: 37%;
     left: 15%;
   }
 
@@ -66,7 +66,7 @@
     width: 80%;
     font-size: 1em;
     font-weight: 700;
-    top: 52%;
+    top: 42%;
     left: 10%;
     border-top: 3px solid rgb(0, 0, 0);
     padding-top: 0.2em;
@@ -85,7 +85,7 @@
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
-    top: 48%;
+    top: 38%;
     left: 15%;
   }
 
@@ -99,7 +99,7 @@
     width: 80%;
     font-size: 1em;
     font-weight: 700;
-    top: 52%;
+    top: 42%;
     left: 10%;
     border-top: 3px solid rgb(0, 0, 0);
     padding-top: 0.2em;
@@ -118,7 +118,7 @@
     font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
-    top: 49%;
+    top: 39%;
     left: 15%;
   }
 
@@ -132,7 +132,7 @@
     width: 80%;
     font-size: 0.8em;
     font-weight: 700;
-    top: 52%;
+    top: 42%;
     left: 10%;
     border-top: 3px solid rgb(0, 0, 0);
     padding-top: 0.2em;
@@ -151,7 +151,7 @@
     font-size: 0.7em;
     font-weight: 700;
     text-transform: uppercase;
-    top: 49%;
+    top: 39%;
     left: 15%;
   }
 
@@ -165,7 +165,7 @@
     width: 80%;
     font-size: 0.5em;
     font-weight: 700;
-    top: 52%;
+    top: 42%;
     left: 10%;
     border-top: 3px solid rgb(0, 0, 0);
     padding-top: 0.2em;
