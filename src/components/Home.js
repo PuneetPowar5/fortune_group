@@ -26,9 +26,6 @@ const Home = () => {
                 <Goals />
             </div>
             <div>
-                <Picture />
-            </div>
-            <div>
                 <Question />
             </div>
             <div>
